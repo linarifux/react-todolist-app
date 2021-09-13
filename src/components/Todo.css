@@ -1,0 +1,30 @@
+.todo-box {
+  width: 63%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem auto;
+  padding: 0.5rem 1rem;
+  background: rgb(148, 146, 146);
+  gap: 5rem;
+}
+
+.icon {
+  font-size: 30px;
+  color: rgb(126, 34, 34);
+  text-align: right;
+  cursor: pointer;
+}
+
+.todo {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  gap: 1rem;
+}
+
+input[type="checkbox"] {
+  height: 30px;
+  width: 30px;
+}
